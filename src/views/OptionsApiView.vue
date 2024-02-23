@@ -1,5 +1,5 @@
 <template>
-  <h1 class="home">Home Page (Options API)</h1>
+  <h1>(Options API)</h1>
   <p>{{ name }} - {{ age }}</p>
   <button type="button" @click="changeName('aa')">Change Name</button>
   <button type="button" @click="changeAge(22)">Change Age</button>
