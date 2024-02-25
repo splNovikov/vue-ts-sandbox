@@ -5,6 +5,16 @@ body {
   background: #ece6d9;
 }
 
+@font-face {
+  font-family: HyliaSerif;
+  src: url("./HyliaSerifBeta-Regular.otf") format("opentype");
+}
+
+h2 {
+  font-family: HyliaSerif;
+  letter-spacing: 4px;
+}
+
 nav {
   padding: 30px;
 
