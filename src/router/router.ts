@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import OptionsApiView from "../views/OptionsApiView.vue";
 import CompositionApiView from "../views/CompositionApiView.refs.vue";
+import JobsView from "../views/JobsView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -23,6 +24,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/variant3",
     name: "variant3",
     component: CompositionApiView,
+  },
+  {
+    path: "/jobs",
+    name: "jobs",
+    component: JobsView,
   },
 ];
 
